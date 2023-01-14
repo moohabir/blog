@@ -177,8 +177,8 @@ function SinglePost() {
             >
               <BlogContent
                 blocks={singlePost?.body}
-                projectId="process.env.REACT_APP_projectId"
-                dataset="production"
+                projectId="process.env.REACT_APP_SANITY_STUDIO_PROJECT_ID"
+                dataset="process.env.REACT_APP_SANITY_STUDIO_DATASET"
                 style={{
                   display: 'flex',
                   padding: '10px',
