@@ -218,9 +218,7 @@ function SinglePost() {
       </Container>
 
       <Container sx={{ flex: 1 }}>
-        <div style={{ dispaly: 'flex', flexDirection: 'column' }}>
-          <AdSense />
-        </div>
+        <AdSense />
       </Container>
     </Box>
   );

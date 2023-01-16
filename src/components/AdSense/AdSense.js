@@ -1,6 +1,9 @@
 import React from 'react';
 
-const AdSense = () => {
+const publisherId = process.env.REACT_APP_ADSENSE_PUBLISHER_ID;
+const clientId = process.env.REACT_APP_ADSENSE_CLIENT_ID;
+
+function AdSense() {
   return (
     <>
       <script
@@ -12,15 +15,14 @@ const AdSense = () => {
       <ins
         class="adsbygoogle"
         style={{ display: 'block' }}
-        data-ad-client="ca-pub-8542623725990737"
-        data-ad-slot="6521353342"
+        data-ad-client={publisherId}
+        data-ad-slot={clientId}
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
-
       <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </>
   );
-};
+}
 
 export default AdSense;
