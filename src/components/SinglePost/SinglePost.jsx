@@ -62,13 +62,14 @@ function SinglePost() {
     <Box
       sx={{
         display: 'flex',
-        backgroundColor: 'gray',
+        backgroundColor: '#fff',
         flexDirection: { xs: 'column', sm: 'row' },
       }}
     >
       <Container
         sx={{
           flex: 1,
+
           //position: 'sticky',
           //top: '20px',
           //height: 'calc(100vh - 70px)',
@@ -87,7 +88,7 @@ function SinglePost() {
       </Container>
       <Container
         sx={{
-          flex: 6,
+          flex: 4,
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
