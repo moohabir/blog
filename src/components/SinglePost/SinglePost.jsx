@@ -15,6 +15,7 @@ import {
   IconButton,
   //Box,
 } from '@mui/material';
+import AdSense from '../AdSense/AdSense';
 //import { Facebook, GitHub } from '@mui/icons-material';
 
 //import ImageUrlBuilder from '@sanity/image-url';
@@ -217,21 +218,7 @@ function SinglePost() {
 
       <Container sx={{ flex: 1 }}>
         <div style={{ dispaly: 'flex', flexDirection: 'column' }}>
-          <div style={{ display: 'flex' }}>
-            <img
-              src=""
-              alt="userimage"
-            />
-            <span>Mohamed Abdille</span>
-          </div>
-          <Button>Follow</Button>
-          <Typography>
-            Frontend Developer interested in React, Sanity, and Solidity
-          </Typography>
-          <span>
-            LOCATION Ludinghausen, Germany, WORK as FrontEND Developer Amazon
-          </span>
-          <span>JOINED 27 May 2020</span>
+          <AdSense />
         </div>
       </Container>
     </Box>
